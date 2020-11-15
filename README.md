@@ -1,4 +1,4 @@
-# A3 HW3: A few of my Favourite Things...
+\*# A3 HW3: A few of my Favourite Things...
 
 ## About
 
@@ -14,12 +14,12 @@ Use a modern browser such as Google Chrome
 
 ## Built With
 
-HTML
-CSS / SASS
-JavaScript
-AJAX
-PHP
-Love <3
+- HTML
+- CSS / SASS
+- JavaScript
+- AJAX
+- PHP
+- Love <3
 
 ## Authors
 
