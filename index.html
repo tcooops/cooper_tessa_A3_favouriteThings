@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A3 HW3 ~ Favourite Things</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body class="body">
+
+<div class="main-container"> <!-- begin main container -->
+    <main id="app content-wrap">
+        <h1 class="hidden">Tessa Benton-Cooper's Favourite Things</h1>
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-item"><a href="#">uno</a></li>
+                <li class="nav-item"><a href="#">dos</a></li>
+                <li class="nav-item"><a href="#">tres</a></li>
+            </ul>
+        </nav>
+        <!-- add a users section here -->
+        <section class="favourite-things">
+            <h2>Three of Tessa's ABSOLUTE favourite things in life</h2>
+            <!-- user-template copies get rendered here -->
+    </section>
+    <!-- end users section -->
+</main>
+
+<footer class="footer">
+    <h2>By Tessa Benton-Cooper</h2>
+    <p>Thanks for visiting!</p>
+</footer>
+
+</div> <!-- end main container -->
+
+<!-- template files here (these don't render - the contents are reusable and get cloned at runtime) -->
+<template id="things_template">
+    <div class="things">
+        <img src="" alt="favourite image">
+        <h2 class="thing-name"></h2>
+        <p class="thing-description"></p>
+        <p class="thing-img"></p>
+    </div>
+</template>
+<!-- end templates -->
+
+<!-- script files always go here -->
+<script type="module" src="js/main.js"></script>
+</body>
+
+</html>

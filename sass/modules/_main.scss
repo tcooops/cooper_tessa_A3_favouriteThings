@@ -1,0 +1,26 @@
+.hidden {
+  display: none;
+}
+
+.main-container {
+  position: relative;
+  width: 100vw;
+  margin: 2em;
+  min-height: 100vh;
+}
+
+.body {
+  background: rgb(146, 208, 226);
+  background: linear-gradient(
+    76deg,
+    rgba(146, 208, 226, 1) 0%,
+    rgba(156, 255, 195, 1) 50%,
+    rgba(242, 255, 191, 1) 100%
+  );
+}
+
+// for footer
+
+#content-wrap {
+  padding-bottom: 6rem; /* Footer height */
+}
