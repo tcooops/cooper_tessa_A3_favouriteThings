@@ -1,0 +1,12 @@
+[
+    {"type":"header","version":"4.9.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"db_favouriteThings"},
+    {"type":"table","name":"tbl_things","database":"db_favouriteThings","data":
+    [
+    {"ID":"4","Title":"Baseball","Name":"Toronto Blue Jays","Description":"I’ve been enjoying the world of baseball since the day I opened my eyes. To this day, I enjoy attending live games (pre-covid), as well as watching and cheering on the Toronto Blue Jays.","Image":"..\/images\/baseball.png"},
+    {"ID":"5","Title":"Travel","Name":"Anywhere the wind takes me...","Description":"I have the travel bug (thank goodness not covid). So far, my favourite destination has been Cabo San Lucas. Up next, the world...","Image":"..\/images\/travel.png"},
+    {"ID":"6","Title":"Dogs","Name":"Chichi and Blue","Description":"If you DON’T love dogs, then we have an issue. Meet my rescue Chichi and my Mastiff baby Blue (though he’s 100lbs and no where near full grown). Ironically, the Chihuahua thinks she’s the biggest in the house…","Image":"..\/images\/dogs.png"}
+    ]
+    }
+    ]
+    

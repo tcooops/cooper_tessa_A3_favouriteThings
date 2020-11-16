@@ -5,11 +5,8 @@
 .main-container {
   position: relative;
   width: 100vw;
-  margin: 2em;
   min-height: 100vh;
-}
-
-.body {
+  height: 100%;
   background: rgb(146, 208, 226);
   background: linear-gradient(
     76deg,
@@ -17,10 +14,4 @@
     rgba(156, 255, 195, 1) 50%,
     rgba(242, 255, 191, 1) 100%
   );
-}
-
-// for footer
-
-#content-wrap {
-  padding-bottom: 6rem; /* Footer height */
 }

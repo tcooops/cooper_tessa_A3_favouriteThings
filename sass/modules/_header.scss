@@ -1,11 +1,10 @@
 .main-nav {
   font-size: $nav-font-size;
-  background-color: steelblue;
-  width: 100%;
+  width: 100vw;
   max-height: 50px;
   height: 100%;
-  color: white;
-  margin: 0;
+  color: #222;
+  margin: 0 auto;
   ul {
     display: flex;
     flex-direction: row;
@@ -20,7 +19,7 @@
     }
   }
   a {
-    color: white;
+    color: #222;
   }
 }
 
